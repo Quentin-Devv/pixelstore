@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Quentin">
+    <meta name="description"
+        content="Boutique informatique en ligne : Tous le nécessaire pour vos besoins informatiques">
+    <title>PixelStore - Boutique informatique</title>
+    <link rel="icon" type="image/png" href="images/logo/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header id="top">
+        <img src="images/logo/logo.png" alt="Logo PixelStore" width="100">
+        <h1>PixelStore</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <h2>Bienvenue chez PixelStore</h2>
+            <h3>Tout l’informatique qu’il vous faut, en un seul endroit !</h3>
+        </section>
+
+        <section id="produits">
+            <h2>Nos produits</h2>
+
+            <section>
+                <h3> Informatique</h3>
+                <div class="liste-produits">
+                    <div class="produit">
+                        <h4>PC de bureau</h4>
+                        <img src="images/produits/pc-de-bureau.png" alt="Ordinateur de bureau i7 avec 16Go de RAM"
+                            width="200">
+                        <p>Processeur <strong>i7</strong>, <strong>16Go RAM</strong></p>
+                        <p><strong>Prix :</strong> 899 €</p>
+                    </div>
+
+                    <div class="produit">
+                        <h4>Écran ordinateur 4k</h4>
+                        <img src="images/produits/ecran-4k.png" alt="Ecran d'ordinateur 4K 27 pouces" width="200">
+                        <p>Ultra HD <strong>27 pouces</strong></p>
+                        <p><strong>Prix :</strong> 299 €</p>
+                    </div>
+
+                    <div class="produit">
+                        <h4>Clavier numérique</h4>
+                        <img src="images/produits/clavier-numerique.png" alt="Clavier numérique rétroéclairé"
+                            width="200">
+                        <p><strong>Azerty</strong> rétroéclairé</p>
+                        <p><strong>Prix :</strong> 59 €</p>
+                    </div>
+
+                    <div class="produit">
+                        <h4>Souris sans fil</h4>
+                        <img src="images/produits/souris-sans-fil.png" alt="Souris sans fil avec 3200 DPI" width="200">
+                        <p>Sensibilité réglable jusqu’à <strong>3200 DPI</strong>, design ergonomique</p>
+                        <p><strong>Prix :</strong> 39 €</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Accessoires</h3>
+                <div class="liste-produits">
+                    <div class="produit">
+                        <h4>Casque audio et micro</h4>
+                        <img src="images/produits/casque-audio-micro.png" alt="Casque audio avec micro intégré"
+                            width="200">
+                        <p>Son stéréo, <strong>micro intégré</strong>, confort longue durée</p>
+                        <p><strong>Prix :</strong> 79 €</p>
+                    </div>
+
+                    <div class="produit">
+                        <h4>Tapis de souris</h4>
+                        <img src="images/produits/tapis-de-souris-xxl.png" alt="Tapis de souris XXL" width="200">
+                        <p><strong>XXL</strong>, antidérapant, surface lisse</p>
+                        <p><strong>Prix :</strong> 19 €</p>
+                    </div>
+
+                    <div class="produit">
+                        <h4>Imprimante</h4>
+                        <img src="images/produits/imprimante-wifi.png" alt="Imprimante avec connexion Wi-Fi"
+                            width="200">
+                        <p>Multifonction <strong>Wifi</strong>, impression couleur rapide</p>
+                        <p><strong>Prix :</strong> 149 €</p>
+                    </div>
+
+                    <div class="produit">
+                        <h4>Cable USB</h4>
+                        <img src="images/produits/cable-usb.png" alt="Cable usb longueur 1,5 mètre" width="200">
+                        <p>Haute vitesse, compatible USB 3.0, longueur<strong> 1,5 m</strong></p>
+                        <p><strong>Prix :</strong> 9 €</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>Style et décoration</h3>
+                <div class="liste-produits">
+                    <div class="produit">
+                        <h4>Décoration LED</h4>
+                        <img src="images/produits/led-rgb.png" alt="Bande lumineuse RGB" width="200">
+                        <p>Bande lumineuse <strong>RGB</strong>, ambiance personnalisée</p>
+                        <p><strong>Prix :</strong> 15 €</p>
+                    </div>
+
+                    <div class="produit">
+                        <h4>Figurine</h4>
+                        <img src="images/produits/figurine.png" alt="Figurine de collection" width="200">
+                        <p>Modèle de collection, finition soignée</p>
+                        <p><strong>Prix :</strong> 35 €</p>
+                    </div>
+
+                    <div class="produit">
+                        <h4>Stickers</h4>
+                        <img src="images/produits/stickers.png" alt="Stickers décoratifs pour PC et bureau" width="200">
+                        <p>Lot de stickers décoratifs pour PC et bureau</p>
+                        <p><strong>Prix :</strong> 5.99 €</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <h3>Formulaire de contact</h3>
+            <form method="post" action="#">
+                <div class="form-champ">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div class="form-champ">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+
+                <div class="form-champ">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-champ">
+                    <label for="sujet">Sujet :</label>
+                    <select id="sujet" name="sujet" required>
+                        <option value="">-- Sélectionner un sujet --</option>
+                        <option value="cmd">Commande</option>
+                        <option value="sav">Service après-vente</option>
+                        <option value="info">Demande d'information</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+
+                <div class="form-champ">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                </div>
+
+                <button type="submit">Envoyer</button>
+            </form>
+
+
+            <h3>Nos coordonnées</h3>
+            <address>
+                <ul>
+                    <li>Mail : <a
+                            href="mailto:pixelstore@hotmail.com?subject=Demande%20d'information">pixelstore@hotmail.com</a>
+                    </li>
+                    <li>Téléphone : <a href="tel:+33200000000">+33 2 00 00 00 00</a></li>
+                    <li>Adresse : 12 rue du code, 44000 Nantes, France </li>
+                </ul>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contenu">
+            <div class="footer-col">
+                <h3>Contactez-nous :</h3>
+                <address>
+                    <a href="mailto:pixelstore@hotmail.com?subject=Demande%20d'information">pixelstore@hotmail.com</a>
+                    <a href="tel:+33200000000">+33 2 00 00 00 00</a>
+                    12 rue du code
+                    44000 Nantes
+                    France
+                </address>
+            </div>
+
+            <div class="footer-col">
+                <nav>
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#produits">Produits</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer-col">
+                <p>Service disponible 24h/24 en ligne&nbsp;!</p>
+            </div>
+        </div>
+
+        <p class="footer-copy">&copy; 2025 PixelStore - Tous droits réservés</p>
+        <p class="footer-top"><a href="#top">Haut de page</a></p>
+    </footer>
+
+</body>
+
+</html>
